@@ -5,11 +5,12 @@ const { expect } = require('chai');
 const urlBase = 'https://api.github.com';
 const githubUserName = 'AgileTestingColombia';
 const repository = 'workshop-api-testing-js';
+export ACCESS_TOKEN = 'f08bd589637b40829ab7687fb59c70e6102e36f3';
 
 describe('Github Api Test', () => {
  describe('Authentication', () => {
    it('Via OAuth2 Tokens by Header', () =>
-     agent.get(`${urlBase}/repos/${githubUserName}/${repository}`)
+     agent.get(`${urlBase}/repos/${ingridsalazar}/${psl-workshop-api-testing-js}`)
        .auth('token', process.env.ACCESS_TOKEN)
        .then((response) => {
          expect(response.status).to.equal(statusCode.OK);

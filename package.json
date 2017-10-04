@@ -1,7 +1,7 @@
 {
   "name": "psl-workshop-api-testing-js",
   "version": "1.0.0",
-  "description": "This is a Workshop about API Testing in JavaScript",
+  "description": "This is a Workshop about Api Testing in JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && mocha -t 5000 --reporter mochawesome --reporter-options reportDir=report,reportFilename=ApiTesting",
@@ -29,7 +29,8 @@
     "eslint-plugin-import": "^2.7.0",
     "http-status-codes": "^1.3.0",
     "mocha": "^3.5.3",
-    "mochawesome": "^2.3.1"
+    "mochawesome": "^2.3.1",
+    "travis-cli": "^1.0.9"
   },
   "dependencies": {
     "chai": "^4.1.2",
